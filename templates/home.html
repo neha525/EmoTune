@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to EmoTune</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            font-family: Arial;
+            text-align: center;
+            background: linear-gradient(135deg, #140729, #080117);
+            color: rgb(219, 216, 216);
+        }
+        .container {
+            text-align: center;
+            margin-top: 100px;
+        }
+        .btn {
+            padding: 10px 20px;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background:#58076a;
+            color: rgb(177, 173, 173);
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .btn:hover {
+            background-color: #58076a;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎧 Welcome to EmoTune</h1>
+        <p>AI-powered Speech Emotion Recognition & Music Recommendation</p>
+
+        <a href="/app">
+            <button class="btn">Get Started</button>
+        </a>
+    </div>
+</body>
+</html>

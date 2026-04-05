@@ -1,0 +1,26 @@
+# ─── Core Scientific Stack ────────────────────────────────────────────────────
+numpy>=1.23.0
+pandas>=1.5.0
+scipy>=1.9.0
+
+# ─── Audio Processing ─────────────────────────────────────────────────────────
+librosa>=0.10.0
+sounddevice>=0.4.6
+soundfile>=0.12.1
+
+# ─── Machine Learning / Deep Learning ────────────────────────────────────────
+scikit-learn>=1.2.0
+tensorflow>=2.12.0        # includes Keras; swap for torch+torchvision if preferred
+
+# ─── Visualisation ────────────────────────────────────────────────────────────
+matplotlib>=3.6.0
+
+# ─── Spotify Integration ──────────────────────────────────────────────────────
+spotipy>=2.23.0
+
+# ─── Utilities ───────────────────────────────────────────────────────────────
+tqdm>=4.64.0
+
+# ─── Web UI ───────────────────────────────────────────────────────────────────
+flask>=3.0.0
+flask-cors>=4.0.0
